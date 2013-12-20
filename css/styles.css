@@ -1,0 +1,170 @@
+/*layout*/
+
+body {
+	width:100%;
+	height:100%;
+	background-color:rgb(65,77,80);
+	font-family: 'Candara';
+}
+
+#banner {
+	width:100%;
+}
+
+nav {
+	height:2em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	background-color:rgb(109,137,74);
+	border-style:solid;
+	border-width:5px;
+	border-color:rgb(65,77,80);
+	text-justify:distribute-all-lines;
+}
+
+#side {
+
+	height:38em;
+	background-color:rgb(106,102,93);
+	position:relative;
+	border-style:solid;
+	border-width:5px;
+	border-color:rgb(65,77,80);
+	z-index:1;
+}
+
+#main {
+	height:42em;
+	background-color:rgb(241,245,250);
+
+}
+
+footer {
+	background-color:rgb(109,137,74);	
+	height:2em;
+	border-top-color:rgb(65,77,80);
+	border-top-style:solid;
+	border-top-width:5px;
+}
+
+/*Content*/
+
+nav ul{
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-align:center;	
+}
+
+nav li{
+	position:relative;
+	display:inline-block;
+	width:19%;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	font-size:20px;
+	left:-1em;
+	bottom:1px;
+}
+
+#sidebanner {
+	position:relative;
+	font-weight:bold;
+	text-align:center;
+	font-size:1.5em;
+	border-bottom: 5px solid rgb(65,77,80);
+	line-height:50px;
+	top: -1em;
+}
+
+#side li{
+	position:relative;
+	list-style-type:none;
+	top:-2em;
+	left:-.5em;
+	width:100%;
+	padding:5px;
+}
+
+h1 {
+	position:relative;
+	font-weight:bold;
+	text-align:left;
+	font-size:1.5em;
+	border-bottom: 5px solid rgb(65,77,80);
+	line-height:50px;
+	left:.5em;
+	max-width:10em;
+}
+
+h3 {
+
+	float:left;
+	position:relative;
+	left:2em;
+}
+
+#content p{
+	max-width:22em;
+	float:left;
+	margin:1em;
+}
+
+#content ul {
+	float:left;	
+	position:relative;
+	left:2em;
+	top:-1em;
+}
+
+#content li {
+	padding:10px;	
+}
+
+.image {
+	border: 5px solid rgb(65,77,80);
+}
+
+#img1 {
+	float:right;
+	position:relative;
+	top:-2em;
+}
+
+#img2 {
+
+	float:left;
+	margin: 1em 0 1em 10;
+}
+
+#cards{
+	float:right;
+	position:relative;
+	left:1em;
+
+}
+
+a:link {
+	text-decoration:none;
+	color:black;
+}
+
+a:visited {
+	color: black;	
+}
+
+a:hover {
+	color: rgb(241,245,250);
+}
+
+footer p {
+	font-size:10px;	
+	text-align:right;
+}
+/*unsemantic override*/
+
+.grid-container {
+	max-width:1000px !important;
+}
